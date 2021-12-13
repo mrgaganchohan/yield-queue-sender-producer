@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000
 
 app.use(cors())
 app.get('/', async(req, res) => {
-  res.send("Success response Sender")
+  res.send("Success response Sender Testing Pipeline 1")
 })
 app.get('/sendQueue', async(req, res) => {
   let arg = req.query.message
