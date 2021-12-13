@@ -1,6 +1,6 @@
 const { ServiceBusClient } = require("@azure/service-bus");
 
-const connectionString = "Endpoint=sb://sb-yield-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9qUsUaCnFcbvmU0mmNWScTfH9oWDIV4XxZeKo11y+ck="
+const connectionString = "Endpoint=sb://sb-yield-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=RQkR+X+wfchvutvmfzdJ7UR1FKW4fYpQCp0BXOWKee0="
 
 const queueName = "sbq-yield-service-bus-queue"
 const sendToQueue = async(message_queue) =>{
