@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
